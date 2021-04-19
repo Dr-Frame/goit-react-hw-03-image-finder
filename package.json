@@ -2,7 +2,7 @@
   "name": "react-module-2-1-events-condition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Dr-Frame.github.io/goit-react-hw-02-phonebook",
+  "homepage": "https://Dr-Frame.github.io/goit-react-hw-03-image-finder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",

@@ -50,10 +50,12 @@ class App extends Component {
           pictures: [...prevState.pictures, ...hits],
           page: prevState.page + 1,
         }));
-        window.scrollTo({
-          top: document.documentElement.scrollHeight,
-          behavior: 'smooth',
-        });
+        if (this.state.page > 2) {
+          window.scrollTo({
+            top: document.documentElement.scrollHeight,
+            behavior: 'smooth',
+          });
+        }
       })
       .finally(() =>
         this.setState({
